@@ -12,7 +12,7 @@
                     <h4 class="card-title">Tampilkan Laporan Bulanan</h4>
                 </div>
                 <div class="card-body">
-                    <form method="post" action="<?= base_url('laporan/total'); ?>">
+                    <form method="post" action="<?= base_url('laporan/total_android'); ?>">
                         <div class="form-group mb-2">
                             <label for="bulan" class="text-white">Bulan</label>
 

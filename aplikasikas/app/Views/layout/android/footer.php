@@ -1,6 +1,5 @@
 <footer>
     <p class="bg-light text-dark p-3">
-        <strong>Copyright &copy; 2023 <a href="" class="text-decoration-none">KAS RT 04/RW 02</a>.</strong>
-        All rights reserved.
+    Made with <span id="icon-love" class="et-pb-icon et-waypoint et_pb_animation_top et-animated">&#10084;</span> by <a href="http://koys.my.id" target="_blank">Bekoy</a>
     </p>
 </footer>

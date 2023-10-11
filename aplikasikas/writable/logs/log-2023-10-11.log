@@ -241,3 +241,13 @@ CRITICAL - 2023-10-11 06:30:36 --> Invalid file: layout/android/template/.php
 #7 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #8 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
 #9 {main}
+CRITICAL - 2023-10-11 07:02:26 --> Invalid file: Laporan/Android/detail_android.php
+#0 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Laporan/Android...')
+#1 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\Common.php(1089): CodeIgniter\View\View->render('Laporan/Android...', Array, true)
+#2 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\app\Controllers\Laporan.php(125): view('Laporan/Android...', Array)
+#3 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(832): App\Controllers\Laporan->total_android()
+#4 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#5 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#8 {main}
