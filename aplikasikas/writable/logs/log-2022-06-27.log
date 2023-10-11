@@ -1,0 +1,1347 @@
+CRITICAL - 2022-06-27 01:36:12 --> Undefined variable $title
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Views\layout\template.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(226): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Pages.php(9): view('pages/home')
+#6 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Pages->index()
+#7 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-27 01:37:22 --> Undefined variable $title
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Views\layout\template.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(226): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Pages.php(9): view('pages/home')
+#6 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Pages->index()
+#7 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-27 01:39:16 --> Undefined variable $title
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Views\layout\template.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(226): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Pages.php(9): view('pages/home')
+#6 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Pages->index()
+#7 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-27 01:43:37 --> Undefined variable $title
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Views\layout\template.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(226): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Pages.php(9): view('pages/home')
+#6 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Pages->index()
+#7 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-27 01:43:38 --> Undefined variable $title
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Views\layout\template.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(226): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Pages.php(9): view('pages/home')
+#6 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Pages->index()
+#7 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-27 01:43:38 --> Undefined variable $title
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Views\layout\template.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(226): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Pages.php(9): view('pages/home')
+#6 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Pages->index()
+#7 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-27 01:43:39 --> Undefined variable $title
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Views\layout\template.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(226): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Pages.php(9): view('pages/home')
+#6 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Pages->index()
+#7 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-27 01:43:45 --> Undefined variable $title
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Views\layout\template.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(226): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Pages.php(9): view('pages/home')
+#6 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Pages->index()
+#7 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-27 01:48:24 --> Undefined variable $title
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Views\layout\template.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(226): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Pages.php(9): view('pages/home')
+#6 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Pages->index()
+#7 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-27 01:48:25 --> Undefined variable $title
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Views\layout\template.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(226): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Pages.php(9): view('pages/home')
+#6 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Pages->index()
+#7 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-27 01:48:25 --> Undefined variable $title
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Views\layout\template.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(226): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Pages.php(9): view('pages/home')
+#6 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Pages->index()
+#7 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-27 01:48:25 --> Undefined variable $title
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Views\layout\template.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(226): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Pages.php(9): view('pages/home')
+#6 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Pages->index()
+#7 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-27 01:48:25 --> Undefined variable $title
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Views\layout\template.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(226): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Pages.php(9): view('pages/home')
+#6 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Pages->index()
+#7 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-27 01:48:26 --> Undefined variable $title
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Views\layout\template.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(226): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Pages.php(9): view('pages/home')
+#6 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Pages->index()
+#7 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-27 01:48:26 --> Undefined variable $title
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Views\layout\template.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(226): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Pages.php(9): view('pages/home')
+#6 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Pages->index()
+#7 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-27 01:57:52 --> Undefined variable $title
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Views\layout\template.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(226): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('pages/contact', Array, true)
+#5 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Pages.php(19): view('pages/contact')
+#6 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Pages->contact()
+#7 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-27 01:58:02 --> Undefined variable $title
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Views\layout\template.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(226): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Pages.php(9): view('pages/home')
+#6 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Pages->index()
+#7 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-27 02:02:46 --> Class "App\Controllers\WargaModel" not found
+#0 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Pages->index()
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-27 02:06:22 --> Class "Apps\Models\PagesModel" not found
+#0 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Pages->index()
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-27 02:07:56 --> Undefined variable $title
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Views\layout\template.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(226): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('pages/about', Array, true)
+#5 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Pages.php(21): view('pages/about')
+#6 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Pages->about()
+#7 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-27 02:31:02 --> syntax error, unexpected variable "$model"
+#0 C:\xampp\htdocs\kas_rt\ci4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('warga/index')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('warga/index')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-27 02:31:04 --> syntax error, unexpected variable "$model"
+#0 C:\xampp\htdocs\kas_rt\ci4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('warga/index')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('warga/index')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-27 02:31:08 --> syntax error, unexpected variable "$model"
+#0 C:\xampp\htdocs\kas_rt\ci4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('warga/index')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('warga/index')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-27 02:44:59 --> Undefined array key "slug"
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Views\warga\index.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('warga/index', Array, true)
+#4 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(13): view('warga/index', Array)
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->index()
+#6 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#7 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-27 02:46:40 --> Undefined array key "slug"
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Views\warga\index.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('warga/index', Array, true)
+#4 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(13): view('warga/index', Array)
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->index()
+#6 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#7 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-27 02:46:41 --> Undefined array key "slug"
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Views\warga\index.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('warga/index', Array, true)
+#4 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(13): view('warga/index', Array)
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->index()
+#6 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#7 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-27 02:46:49 --> Undefined array key "slug"
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Views\warga\index.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('warga/index', Array, true)
+#4 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(13): view('warga/index', Array)
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->index()
+#6 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#7 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-27 02:46:57 --> Undefined array key "slug"
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Views\warga\index.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('warga/index', Array, true)
+#4 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(13): view('warga/index', Array)
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->index()
+#6 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#7 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-27 03:00:14 --> syntax error, unexpected token "}", expecting ";"
+#0 C:\xampp\htdocs\kas_rt\ci4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('warga')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('warga')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-27 03:09:18 --> Invalid file: detail.php
+#0 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('detail.php')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('detail', Array, true)
+#2 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(18): view('detail')
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('ilham-nur-utomo')
+#4 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-27 03:09:31 --> Invalid file: detail.php
+#0 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('detail.php')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('detail', Array, true)
+#2 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(18): view('detail')
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('hans-niet')
+#4 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-27 03:09:41 --> Invalid file: detail.php
+#0 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('detail.php')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('detail', Array, true)
+#2 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(18): view('detail')
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('ilham-nur-utomo')
+#4 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-27 04:36:12 --> Invalid file: detail.php
+#0 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('detail.php')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('detail', Array, true)
+#2 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(18): view('detail')
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('ilham-nur-utomo')
+#4 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-27 04:38:09 --> Invalid file: detail.php
+#0 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('detail.php')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('detail', Array, true)
+#2 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(18): view('detail')
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('ilham-nur-utomo')
+#4 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-27 04:38:14 --> Invalid file: detail.php
+#0 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('detail.php')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('detail', Array, true)
+#2 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(18): view('detail')
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('ilham-nur-utomo')
+#4 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-27 04:39:10 --> Invalid file: detail.php
+#0 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('detail.php')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('detail', Array, true)
+#2 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(18): view('detail')
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('detail')
+#4 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-27 04:40:59 --> Invalid file: detail.php
+#0 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('detail.php')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('detail', Array, true)
+#2 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(18): view('detail')
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('detail')
+#4 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-27 04:41:37 --> Invalid file: detail.php
+#0 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('detail.php')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('detail', Array, true)
+#2 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(18): view('detail')
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('detail')
+#4 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-27 04:41:54 --> Invalid file: detail.php
+#0 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('detail.php')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('detail', Array, true)
+#2 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(18): view('detail')
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('index')
+#4 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-27 04:44:57 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('index')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-27 04:44:59 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('index')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-27 04:46:05 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('index')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-27 04:47:27 --> compact(): Undefined variable $title
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Unde...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(23): compact('title')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('index')
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#4 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-06-27 04:47:28 --> compact(): Undefined variable $title
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Unde...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(23): compact('title')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('index')
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#4 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-06-27 04:47:36 --> Invalid file: detail.php
+#0 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('detail.php')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('detail', Array, true)
+#2 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(23): view('detail')
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('index')
+#4 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-27 04:47:36 --> Invalid file: detail.php
+#0 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('detail.php')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('detail', Array, true)
+#2 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(23): view('detail')
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('index')
+#4 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-27 04:50:31 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('index')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-27 04:51:01 --> Invalid file: error.php
+#0 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('error.php')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('error', Array, true)
+#2 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(25): view('error')
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('index')
+#4 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-27 04:51:02 --> Invalid file: error.php
+#0 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('error.php')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('error', Array, true)
+#2 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(25): view('error')
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('index')
+#4 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-27 04:51:45 --> compact(): Undefined variable $title
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Unde...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(27): compact('title')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('index')
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#4 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-27 04:51:46 --> compact(): Undefined variable $title
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Unde...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(27): compact('title')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('index')
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#4 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-27 04:51:58 --> Invalid file: detail.php
+#0 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('detail.php')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('detail', Array, true)
+#2 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(27): view('detail')
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('index')
+#4 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-27 04:52:17 --> Undefined variable $row
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Views\warga\detail.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('warga/detail', Array, true)
+#4 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(27): view('warga/detail')
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('index')
+#6 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#7 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-27 04:52:34 --> Undefined variable $row
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Views\warga\detail.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('warga/detail', Array, true)
+#4 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(27): view('warga/detail')
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('index')
+#6 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#7 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-27 04:53:17 --> Undefined variable $row
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Views\warga\detail.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('warga/detail', Array, true)
+#4 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(27): view('warga/detail')
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('index')
+#6 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#7 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-27 04:53:57 --> Undefined variable $row
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Views\warga\detail.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('warga/detail', Array, true)
+#4 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(27): view('warga/detail')
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('index')
+#6 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#7 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-27 04:54:21 --> Undefined variable $warga
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Views\warga\detail.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('warga/detail', Array, true)
+#4 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(27): view('warga/detail')
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('index')
+#6 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#7 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-27 04:54:22 --> Undefined variable $warga
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Views\warga\detail.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('warga/detail', Array, true)
+#4 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(27): view('warga/detail')
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('index')
+#6 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#7 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-27 04:54:22 --> Undefined variable $warga
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Views\warga\detail.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('warga/detail', Array, true)
+#4 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(27): view('warga/detail')
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('index')
+#6 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#7 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-27 04:54:36 --> Undefined variable $warga
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Views\warga\detail.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('warga/detail', Array, true)
+#4 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(27): view('warga/detail')
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('index')
+#6 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#7 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-27 04:54:37 --> Undefined variable $warga
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Views\warga\detail.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('warga/detail', Array, true)
+#4 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(27): view('warga/detail')
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('index')
+#6 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#7 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-27 04:54:46 --> Undefined variable $warga
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Views\warga\detail.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('warga/detail', Array, true)
+#4 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(27): view('warga/detail')
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('index')
+#6 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#7 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-27 04:54:50 --> Undefined variable $warga
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Views\warga\detail.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('warga/detail', Array, true)
+#4 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(27): view('warga/detail')
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('index')
+#6 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#7 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-27 04:56:51 --> Undefined variable $warga
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Views\warga\detail.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('warga/detail', Array, true)
+#4 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(27): view('warga/detail')
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->view('ilham-nur-utomo')
+#6 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#7 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-27 04:57:22 --> Invalid file: detail.php
+#0 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('detail.php')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('detail', Array, true)
+#2 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(27): view('detail')
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('ilham-nur-utomo')
+#4 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-27 04:57:29 --> Undefined variable $warga
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Views\warga\detail.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('warga/detail', Array, true)
+#4 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(27): view('warga/detail')
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('ilham-nur-utomo')
+#6 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#7 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-27 04:59:40 --> Undefined variable $warga
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Views\warga\detail.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('warga/detail', Array, true)
+#4 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(27): view('warga/detail')
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('ilham-nur-utomo')
+#6 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#7 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-27 05:02:54 --> Undefined variable $warga
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Views\warga\detail.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('warga/detail', Array, true)
+#4 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(27): view('warga/detail')
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('ilham-nur-utomo')
+#6 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#7 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-27 05:12:43 --> Undefined property: App\Controllers\Warga::$WargaModel
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('ilham-nur-utomo')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-27 05:25:53 --> Undefined property: App\Controllers\Warga::$WargaModel
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('ilham-nur-utomo')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-27 05:25:54 --> Undefined property: App\Controllers\Warga::$WargaModel
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('ilham-nur-utomo')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-27 05:26:26 --> Undefined property: App\Controllers\Warga::$wargaModel
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('ilham-nur-utomo')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-27 05:26:34 --> Undefined property: App\Controllers\Warga::$WargaModel
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('ilham-nur-utomo')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-27 05:31:37 --> Undefined property: App\Controllers\Warga::$WargaModel
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('ilham-nur-utomo')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-27 05:31:52 --> Undefined property: App\Controllers\Warga::$WargaModel
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('ilham-nur-utomo')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-27 05:33:16 --> Class "App\Controllers\ArtikelModel" not found
+#0 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('ilham-nur-utomo')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-27 05:34:52 --> compact(): Undefined variable $artikel
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Unde...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(28): compact('artikel', 'title')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('ilham-nur-utomo')
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#4 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-06-27 05:34:53 --> compact(): Undefined variable $artikel
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Unde...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(28): compact('artikel', 'title')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('ilham-nur-utomo')
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#4 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-06-27 05:36:53 --> compact(): Undefined variable $title
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Unde...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(23): compact('warga', 'title')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('ilham-nur-utomo')
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#4 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-06-27 05:36:59 --> Undefined variable $title
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Views\layout\template.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(226): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('warga/detail', Array, true)
+#5 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(23): view('warga/detail', Array)
+#6 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('ilham-nur-utomo')
+#7 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#8 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-06-27 05:37:00 --> Undefined variable $title
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Views\layout\template.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(226): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('warga/detail', Array, true)
+#5 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(23): view('warga/detail', Array)
+#6 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('ilham-nur-utomo')
+#7 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#8 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-06-27 07:47:51 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('form_add')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-27 07:47:56 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('form_add')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-27 08:18:42 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('form_add')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-27 08:19:23 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('form_add')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-27 08:20:54 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('form_add')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-27 08:21:17 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('form_add')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-27 08:21:33 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('form_add')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-27 08:22:10 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('form_add')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-27 08:27:13 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('form_add')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-27 08:27:14 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('form_add')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-27 08:28:08 --> Undefined constant "App\Controllers\warga"
+#0 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('form_add')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-27 08:28:36 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('form_add')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-27 08:28:47 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('form_add')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-27 08:30:34 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('form_add')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-27 08:34:02 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('form_add')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-27 08:34:03 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('form_add')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-27 08:35:01 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('form_add')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-27 08:35:01 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('form_add')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-27 08:36:26 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('form_add')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-27 08:36:26 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('form_add')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-27 08:36:27 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('form_add')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-27 08:36:36 --> Class "App\Controllers\PageNotFoundException" not found
+#0 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('form_add')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-27 08:43:22 --> syntax error, unexpected token "}", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\kas_rt\ci4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-27 08:56:28 --> syntax error, unexpected token "$", expecting variable
+#0 C:\xampp\htdocs\kas_rt\ci4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-27 20:54:01 --> syntax error, unexpected token "return", expecting "function" or "const"
+#0 C:\xampp\htdocs\kas_rt\ci4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Warg...')
+#2 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(12): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Warg...')
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->index()
+#4 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-27 20:55:32 --> syntax error, unexpected token "return", expecting "function" or "const"
+#0 C:\xampp\htdocs\kas_rt\ci4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Warg...')
+#2 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(12): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Warg...')
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->index()
+#4 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-27 20:55:39 --> syntax error, unexpected token "return", expecting "function" or "const"
+#0 C:\xampp\htdocs\kas_rt\ci4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Warg...')
+#2 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(12): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Warg...')
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->index()
+#4 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-27 20:59:11 --> Undefined property: App\Controllers\Warga::$WargaModel
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('ilham-nur-utomo')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-27 21:02:04 --> Undefined property: App\Controllers\Warga::$WargaModel
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->index()
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-27 21:02:05 --> Undefined property: App\Controllers\Warga::$WargaModel
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->index()
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-27 21:02:20 --> Undefined property: App\Controllers\Warga::$wargaModel
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->index()
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-27 21:02:20 --> Undefined property: App\Controllers\Warga::$wargaModel
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->index()
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-27 21:03:59 --> Undefined property: App\Controllers\Warga::$wargaModel
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->index()
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-27 21:04:04 --> Undefined property: App\Controllers\Warga::$wargaModel
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->index()
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-27 21:04:14 --> Undefined property: App\Controllers\Warga::$WargaModel
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->index()
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-27 21:07:38 --> syntax error, unexpected token "if"
+#0 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-06-27 21:11:14 --> Unclosed '{' on line 18 does not match ')'
+#0 C:\xampp\htdocs\kas_rt\ci4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('warga')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('warga')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-27 21:14:37 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->detail('form_add')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-27 22:07:31 --> Class "App\Controllers\ArtikelModel" not found
+#0 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->form_add()
+#1 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#2 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-06-27 22:07:55 --> Column 'status' cannot be null
+CRITICAL - 2022-06-27 22:07:55 --> Column 'status' cannot be null
+#0 C:\xampp\htdocs\kas_rt\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `wa...', 0)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `wa...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `wa...')
+#3 C:\xampp\htdocs\kas_rt\ci4\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `wa...', Array, false)
+#4 C:\xampp\htdocs\kas_rt\ci4\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kas_rt\ci4\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kas_rt\ci4\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(46): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->form_add()
+#9 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#10 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-06-27 22:08:06 --> Column 'status' cannot be null
+CRITICAL - 2022-06-27 22:08:06 --> Column 'status' cannot be null
+#0 C:\xampp\htdocs\kas_rt\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `wa...', 0)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `wa...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `wa...')
+#3 C:\xampp\htdocs\kas_rt\ci4\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `wa...', Array, false)
+#4 C:\xampp\htdocs\kas_rt\ci4\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kas_rt\ci4\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kas_rt\ci4\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(46): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->form_add()
+#9 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#10 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-06-27 22:09:13 --> Column 'status' cannot be null
+CRITICAL - 2022-06-27 22:09:13 --> Column 'status' cannot be null
+#0 C:\xampp\htdocs\kas_rt\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `wa...', 0)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `wa...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `wa...')
+#3 C:\xampp\htdocs\kas_rt\ci4\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `wa...', Array, false)
+#4 C:\xampp\htdocs\kas_rt\ci4\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kas_rt\ci4\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kas_rt\ci4\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(46): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->form_add()
+#9 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#10 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-06-27 22:09:41 --> Column 'status' cannot be null
+CRITICAL - 2022-06-27 22:09:41 --> Column 'status' cannot be null
+#0 C:\xampp\htdocs\kas_rt\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `wa...', 0)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `wa...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `wa...')
+#3 C:\xampp\htdocs\kas_rt\ci4\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `wa...', Array, false)
+#4 C:\xampp\htdocs\kas_rt\ci4\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kas_rt\ci4\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kas_rt\ci4\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(46): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->form_add()
+#9 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#10 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-06-27 22:16:38 --> Column 'status' cannot be null
+CRITICAL - 2022-06-27 22:16:38 --> Column 'status' cannot be null
+#0 C:\xampp\htdocs\kas_rt\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `wa...', 0)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `wa...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `wa...')
+#3 C:\xampp\htdocs\kas_rt\ci4\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `wa...', Array, false)
+#4 C:\xampp\htdocs\kas_rt\ci4\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kas_rt\ci4\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kas_rt\ci4\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(46): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->form_add()
+#9 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#10 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-06-27 22:17:17 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\kas_rt\ci4\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(47): redirect('warga/index')
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->form_add()
+#4 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-27 22:17:59 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\kas_rt\ci4\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(47): redirect('warga/index')
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->form_add()
+#4 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-27 22:18:33 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\kas_rt\ci4\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(47): redirect('warga/index')
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->form_add()
+#4 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-27 22:18:47 --> Undefined variable $warga
+#0 C:\xampp\htdocs\kas_rt\ci4\app\Views\warga\index.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(1089): CodeIgniter\View\View->render('warga/index', Array, true)
+#4 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(50): view('warga/index', Array)
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->form_add()
+#6 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#7 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-27 22:19:39 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\kas_rt\ci4\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(47): redirect('warga/index')
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->form_add()
+#4 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-27 22:24:46 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\kas_rt\ci4\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(47): redirect('warga/index')
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->form_add()
+#4 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-27 22:25:08 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\kas_rt\ci4\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(47): redirect('warga/index')
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->form_add()
+#4 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-27 22:31:51 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\kas_rt\ci4\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\kas_rt\ci4\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(47): redirect('warga/index')
+#3 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->form_add()
+#4 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#5 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2022-06-27 22:33:37 --> Column 'jkelamin' cannot be null
+CRITICAL - 2022-06-27 22:33:37 --> Column 'jkelamin' cannot be null
+#0 C:\xampp\htdocs\kas_rt\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `wa...', 0)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `wa...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `wa...')
+#3 C:\xampp\htdocs\kas_rt\ci4\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `wa...', Array, false)
+#4 C:\xampp\htdocs\kas_rt\ci4\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kas_rt\ci4\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kas_rt\ci4\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(45): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->form_add()
+#9 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#10 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-06-27 22:37:49 --> Column 'jkelamin' cannot be null
+CRITICAL - 2022-06-27 22:37:49 --> Column 'jkelamin' cannot be null
+#0 C:\xampp\htdocs\kas_rt\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `wa...', 0)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `wa...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `wa...')
+#3 C:\xampp\htdocs\kas_rt\ci4\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `wa...', Array, false)
+#4 C:\xampp\htdocs\kas_rt\ci4\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kas_rt\ci4\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kas_rt\ci4\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(45): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->form_add()
+#9 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#10 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-06-27 22:41:05 --> Column 'jkelamin' cannot be null
+CRITICAL - 2022-06-27 22:41:05 --> Column 'jkelamin' cannot be null
+#0 C:\xampp\htdocs\kas_rt\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `wa...', 0)
+#1 C:\xampp\htdocs\kas_rt\ci4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `wa...')
+#2 C:\xampp\htdocs\kas_rt\ci4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `wa...')
+#3 C:\xampp\htdocs\kas_rt\ci4\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `wa...', Array, false)
+#4 C:\xampp\htdocs\kas_rt\ci4\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kas_rt\ci4\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kas_rt\ci4\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\kas_rt\ci4\app\Controllers\Warga.php(45): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(832): App\Controllers\Warga->form_add()
+#9 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#10 C:\xampp\htdocs\kas_rt\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kas_rt\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\kas_rt\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-06-27 22:41:11 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-27 22:42:06 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

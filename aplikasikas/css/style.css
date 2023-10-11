@@ -1,0 +1,16 @@
+body {
+    min-height: 100vh;
+}
+.table > tbody > tr > * {
+    vertical-align: middle;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+    clear: both;
+    position: sticky;
+    top: 100%;
+    text-align: center;
+    font-size: 12px;
+}

@@ -1,0 +1,62 @@
+CRITICAL - 2023-09-29 14:34:24 --> Undefined variable $getLaporanBulan
+#0 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/app/Views/Laporan/index.php(73): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/system/View/View.php(210): include('/home/mast9091/...')
+#2 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/app/Controllers/Laporan.php(19): view()
+#5 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/system/CodeIgniter.php(832): App\Controllers\Laporan->index()
+#6 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-29 15:09:03 --> Call to undefined method App\Models\LaporanModel::getLaporanBulan
+#0 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/app/Controllers/Laporan.php(15): CodeIgniter\Model->__call()
+#1 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/system/CodeIgniter.php(832): App\Controllers\Laporan->index()
+#2 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-29 15:10:54 --> Undefined array key "tahun"
+#0 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/app/Views/Laporan/index.php(75): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/system/View/View.php(210): include('/home/mast9091/...')
+#2 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/app/Controllers/Laporan.php(21): view()
+#5 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/system/CodeIgniter.php(832): App\Controllers\Laporan->index()
+#6 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-29 15:13:59 --> Undefined array key "tahun"
+#0 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/app/Views/Laporan/index.php(75): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/system/View/View.php(210): include('/home/mast9091/...')
+#2 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/app/Controllers/Laporan.php(21): view()
+#5 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/system/CodeIgniter.php(832): App\Controllers\Laporan->index()
+#6 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-29 15:14:55 --> Undefined array key "tahun"
+#0 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/app/Views/Laporan/index.php(75): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/system/View/View.php(210): include('/home/mast9091/...')
+#2 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/app/Controllers/Laporan.php(21): view()
+#5 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/system/CodeIgniter.php(832): App\Controllers\Laporan->index()
+#6 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-29 15:16:02 --> Undefined array key "tahun"
+#0 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/app/Views/Laporan/index.php(75): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/system/View/View.php(210): include('/home/mast9091/...')
+#2 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/app/Controllers/Laporan.php(21): view()
+#5 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/system/CodeIgniter.php(832): App\Controllers\Laporan->index()
+#6 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/mast9091/public_html/denis.skripsijoss.my.id/aplikasikas/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

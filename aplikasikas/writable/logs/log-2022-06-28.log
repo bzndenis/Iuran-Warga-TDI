@@ -1,0 +1,329 @@
+CRITICAL - 2022-06-28 09:08:06 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-28 19:56:08 --> Class "App\Models\PagesModel" not found
+#0 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(832): App\Controllers\Pages->about()
+#1 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt - Copy\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-28 19:56:15 --> Class "App\Models\PagesModel" not found
+#0 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(832): App\Controllers\Pages->contact()
+#1 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt - Copy\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-28 19:56:47 --> syntax error, unexpected single-quoted string "alamat", expecting "]"
+#0 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('WargaController')
+#1 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('WargaController')
+#2 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kas_rt - Copy\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-28 19:57:45 --> Class "App\Controllers\WargaModel" not found
+#0 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(809): App\Controllers\WargaController->__construct()
+#1 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt - Copy\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-28 19:57:46 --> Class "App\Controllers\WargaModel" not found
+#0 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(809): App\Controllers\WargaController->__construct()
+#1 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt - Copy\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-28 19:57:47 --> Class "App\Controllers\WargaModel" not found
+#0 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(809): App\Controllers\WargaController->__construct()
+#1 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt - Copy\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-28 20:02:33 --> Class "App\Controllers\WargaModel" not found
+#0 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(809): App\Controllers\WargaController->__construct()
+#1 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt - Copy\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-28 20:02:33 --> Class "App\Controllers\WargaModel" not found
+#0 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(809): App\Controllers\WargaController->__construct()
+#1 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt - Copy\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-28 20:02:34 --> Class "App\Controllers\WargaModel" not found
+#0 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(809): App\Controllers\WargaController->__construct()
+#1 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt - Copy\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-28 20:02:51 --> Class "App\Controllers\WargaModel" not found
+#0 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(809): App\Controllers\WargaController->__construct()
+#1 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt - Copy\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-28 20:02:52 --> Class "App\Controllers\WargaModel" not found
+#0 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(809): App\Controllers\WargaController->__construct()
+#1 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt - Copy\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-28 20:02:53 --> Class "App\Controllers\WargaModel" not found
+#0 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(809): App\Controllers\WargaController->__construct()
+#1 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt - Copy\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-06-28 20:03:58 --> Column 'jkelamin' cannot be null
+CRITICAL - 2022-06-28 20:03:58 --> Column 'jkelamin' cannot be null
+#0 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `wa...', 0)
+#1 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `wa...')
+#2 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `wa...')
+#3 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `wa...', Array, false)
+#4 C:\xampp\htdocs\kas_rt - Copy\ci4\app\Models\WargaModel.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\kas_rt - Copy\ci4\app\Controllers\WargaController.php(68): App\Models\WargaModel->tambah_warga(Array)
+#6 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(832): App\Controllers\WargaController->store()
+#7 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WargaController))
+#8 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kas_rt - Copy\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-06-28 20:15:08 --> Column 'jkelamin' cannot be null
+CRITICAL - 2022-06-28 20:15:08 --> Column 'jkelamin' cannot be null
+#0 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `wa...', 0)
+#1 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `wa...')
+#2 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `wa...')
+#3 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `wa...', Array, false)
+#4 C:\xampp\htdocs\kas_rt - Copy\ci4\app\Models\WargaModel.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\kas_rt - Copy\ci4\app\Controllers\WargaController.php(68): App\Models\WargaModel->tambah_warga(Array)
+#6 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(832): App\Controllers\WargaController->store()
+#7 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WargaController))
+#8 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kas_rt - Copy\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-06-28 20:15:41 --> Column 'jkelamin' cannot be null
+CRITICAL - 2022-06-28 20:15:41 --> Column 'jkelamin' cannot be null
+#0 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `wa...', 0)
+#1 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `wa...')
+#2 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `wa...')
+#3 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `wa...', Array, false)
+#4 C:\xampp\htdocs\kas_rt - Copy\ci4\app\Models\WargaModel.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\kas_rt - Copy\ci4\app\Controllers\WargaController.php(68): App\Models\WargaModel->tambah_warga(Array)
+#6 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(832): App\Controllers\WargaController->store()
+#7 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WargaController))
+#8 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kas_rt - Copy\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-06-28 20:16:14 --> Column 'no_rumah' cannot be null
+CRITICAL - 2022-06-28 20:16:14 --> Column 'no_rumah' cannot be null
+#0 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `wa...', 0)
+#1 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `wa...')
+#2 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `wa...')
+#3 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `wa...', Array, false)
+#4 C:\xampp\htdocs\kas_rt - Copy\ci4\app\Models\WargaModel.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\kas_rt - Copy\ci4\app\Controllers\WargaController.php(68): App\Models\WargaModel->tambah_warga(Array)
+#6 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(832): App\Controllers\WargaController->store()
+#7 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WargaController))
+#8 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kas_rt - Copy\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-06-28 20:20:48 --> Column 'no_rumah' cannot be null
+CRITICAL - 2022-06-28 20:20:48 --> Column 'no_rumah' cannot be null
+#0 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `wa...', 0)
+#1 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `wa...')
+#2 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `wa...')
+#3 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `wa...', Array, false)
+#4 C:\xampp\htdocs\kas_rt - Copy\ci4\app\Models\WargaModel.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\kas_rt - Copy\ci4\app\Controllers\WargaController.php(68): App\Models\WargaModel->tambah_warga(Array)
+#6 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(832): App\Controllers\WargaController->store()
+#7 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WargaController))
+#8 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kas_rt - Copy\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-06-28 20:24:11 --> Too few arguments to function App\Controllers\WargaController::update(), 0 passed in C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(832): App\Controllers\WargaController->update()
+#1 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WargaController))
+#2 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt - Copy\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-28 20:30:48 --> Class "App\Models\PagesModel" not found
+#0 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(832): App\Controllers\Pages->about()
+#1 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt - Copy\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-06-28 20:32:05 --> Column 'jkelamin' cannot be null
+CRITICAL - 2022-06-28 20:32:05 --> Column 'jkelamin' cannot be null
+#0 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `wa...', 0)
+#1 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `wa...')
+#2 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `wa...')
+#3 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `wa...', Array, false)
+#4 C:\xampp\htdocs\kas_rt - Copy\ci4\app\Models\WargaModel.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\kas_rt - Copy\ci4\app\Controllers\WargaController.php(68): App\Models\WargaModel->tambah_warga(Array)
+#6 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(832): App\Controllers\WargaController->store()
+#7 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WargaController))
+#8 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kas_rt - Copy\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-06-28 20:34:27 --> Too few arguments to function App\Controllers\WargaController::update(), 0 passed in C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(832): App\Controllers\WargaController->update()
+#1 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WargaController))
+#2 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt - Copy\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-28 20:36:16 --> Too few arguments to function App\Controllers\WargaController::update(), 0 passed in C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(832): App\Controllers\WargaController->update()
+#1 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WargaController))
+#2 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt - Copy\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-28 20:36:44 --> Too few arguments to function App\Controllers\WargaController::update(), 0 passed in C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(832): App\Controllers\WargaController->update()
+#1 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WargaController))
+#2 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt - Copy\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-28 20:40:43 --> Too few arguments to function App\Controllers\WargaController::update(), 0 passed in C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(832): App\Controllers\WargaController->update()
+#1 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WargaController))
+#2 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt - Copy\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-28 20:42:08 --> Too few arguments to function App\Controllers\WargaController::update(), 0 passed in C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(832): App\Controllers\WargaController->update()
+#1 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WargaController))
+#2 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt - Copy\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-28 20:42:54 --> Class "App\Models\PagesModel" not found
+#0 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(832): App\Controllers\Pages->about()
+#1 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt - Copy\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-28 20:42:58 --> Class "App\Models\PagesModel" not found
+#0 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(832): App\Controllers\Pages->contact()
+#1 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt - Copy\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-06-28 22:10:33 --> Column 'jkelamin' cannot be null
+CRITICAL - 2022-06-28 22:10:33 --> Column 'jkelamin' cannot be null
+#0 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `wa...', 0)
+#1 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `wa...')
+#2 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `wa...')
+#3 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `wa...', Array, false)
+#4 C:\xampp\htdocs\kas_rt - Copy\ci4\app\Models\WargaModel.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\kas_rt - Copy\ci4\app\Controllers\WargaController.php(68): App\Models\WargaModel->tambah_warga(Array)
+#6 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(832): App\Controllers\WargaController->store()
+#7 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WargaController))
+#8 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kas_rt - Copy\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-06-28 22:10:47 --> Class "App\Models\PagesModel" not found
+#0 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(832): App\Controllers\Pages->contact()
+#1 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt - Copy\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-28 22:15:32 --> Too few arguments to function App\Controllers\WargaController::update(), 0 passed in C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(832): App\Controllers\WargaController->update()
+#1 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WargaController))
+#2 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt - Copy\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-28 22:19:14 --> Too few arguments to function App\Controllers\WargaController::update(), 0 passed in C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(832): App\Controllers\WargaController->update()
+#1 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WargaController))
+#2 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt - Copy\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-28 22:22:10 --> Too few arguments to function App\Controllers\WargaController::update(), 0 passed in C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(832): App\Controllers\WargaController->update()
+#1 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WargaController))
+#2 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt - Copy\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-28 22:26:26 --> Too few arguments to function App\Controllers\WargaController::update(), 0 passed in C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(832): App\Controllers\WargaController->update()
+#1 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WargaController))
+#2 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt - Copy\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-28 22:27:50 --> Too few arguments to function App\Controllers\WargaController::update(), 0 passed in C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(832): App\Controllers\WargaController->update()
+#1 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WargaController))
+#2 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt - Copy\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-28 23:07:02 --> Call to a member function first() on array
+#0 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(832): App\Controllers\WargaController->edit('9')
+#1 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WargaController))
+#2 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt - Copy\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-28 23:11:49 --> Call to a member function get() on array
+#0 C:\xampp\htdocs\kas_rt - Copy\ci4\app\Controllers\WargaController.php(82): App\Models\WargaModel->getWarga('5')
+#1 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(832): App\Controllers\WargaController->edit('5')
+#2 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WargaController))
+#3 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kas_rt - Copy\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-28 23:12:31 --> Call to a member function get() on array
+#0 C:\xampp\htdocs\kas_rt - Copy\ci4\app\Controllers\WargaController.php(82): App\Models\WargaModel->getWarga('5')
+#1 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(832): App\Controllers\WargaController->edit('5')
+#2 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WargaController))
+#3 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kas_rt - Copy\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-28 23:12:59 --> Call to a member function first() on array
+#0 C:\xampp\htdocs\kas_rt - Copy\ci4\app\Controllers\WargaController.php(82): App\Models\WargaModel->getWarga('8')
+#1 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(832): App\Controllers\WargaController->edit('8')
+#2 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WargaController))
+#3 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kas_rt - Copy\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-28 23:27:14 --> Class "App\Models\PagesModel" not found
+#0 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(832): App\Controllers\Pages->contact()
+#1 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\kas_rt - Copy\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kas_rt - Copy\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kas_rt - Copy\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

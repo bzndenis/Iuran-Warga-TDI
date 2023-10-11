@@ -1,0 +1,12 @@
+CRITICAL - 2023-10-01 11:46:00 --> Undefined array key "alamat"
+#0 C:\Users\Administrator\Desktop\iuran\aplikasikas\app\Views\Laporan\detail.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\Admini...', 77)
+#1 C:\Users\Administrator\Desktop\iuran\aplikasikas\system\View\View.php(210): include('C:\\Users\\Admini...')
+#2 C:\Users\Administrator\Desktop\iuran\aplikasikas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Administrator\Desktop\iuran\aplikasikas\system\Common.php(1089): CodeIgniter\View\View->render('Laporan/detail', Array, true)
+#4 C:\Users\Administrator\Desktop\iuran\aplikasikas\app\Controllers\Laporan.php(55): view('Laporan/detail', Array)
+#5 C:\Users\Administrator\Desktop\iuran\aplikasikas\system\CodeIgniter.php(832): App\Controllers\Laporan->total()
+#6 C:\Users\Administrator\Desktop\iuran\aplikasikas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\Users\Administrator\Desktop\iuran\aplikasikas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Administrator\Desktop\iuran\aplikasikas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Administrator\Desktop\iuran\aplikasikas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#10 {main}
