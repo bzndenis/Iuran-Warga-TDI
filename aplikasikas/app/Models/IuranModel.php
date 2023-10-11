@@ -7,7 +7,7 @@ use CodeIgniter\Model;
 class IuranModel extends Model
 {
     protected $table = 'iuran';
-    protected $primaryKey = 'id';    
+    protected $primaryKey = 'id';
 
     public function getIuran($id = false)
     {
@@ -46,5 +46,15 @@ class IuranModel extends Model
             ->orLike('warga.nik', $keyword) // Menambahkan kondisi pencarian berdasarkan NIK warga
             ->get()
             ->getResultArray();
+    }
+
+    public function isAlreadyPaid($warga_id, $bulan, $tahun)
+    {
+        $builder = $this->db->table('iuran');
+        $builder->where('warga_id', $warga_id);
+        $builder->where('bulan', $bulan);
+        $builder->where('tahun', $tahun);
+
+        return $builder->countAllResults() > 0;
     }
 }

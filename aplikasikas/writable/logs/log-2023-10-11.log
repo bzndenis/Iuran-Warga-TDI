@@ -1,0 +1,243 @@
+CRITICAL - 2023-10-11 05:55:26 --> Undefined variable $currentPage
+#0 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\app\Views\Laporan\index.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\Admini...', 185)
+#1 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\View\View.php(210): include('C:\\Users\\Admini...')
+#2 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\Common.php(1089): CodeIgniter\View\View->render('Laporan/index', Array, true)
+#4 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\app\Controllers\Laporan.php(26): view('Laporan/index', Array)
+#5 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(832): App\Controllers\Laporan->index()
+#6 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#10 {main}
+CRITICAL - 2023-10-11 05:56:56 --> Undefined variable $currentPage
+#0 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\app\Views\Laporan\index.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\Admini...', 185)
+#1 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\View\View.php(210): include('C:\\Users\\Admini...')
+#2 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\Common.php(1089): CodeIgniter\View\View->render('Laporan/index', Array, true)
+#4 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\app\Controllers\Laporan.php(28): view('Laporan/index', Array)
+#5 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(832): App\Controllers\Laporan->index()
+#6 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#10 {main}
+CRITICAL - 2023-10-11 05:57:19 --> Call to undefined method App\Models\IuranModel::getListBulan
+#0 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\app\Controllers\Laporan.php(34): CodeIgniter\Model->__call('getListBulan', Array)
+#1 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(832): App\Controllers\Laporan->index()
+#2 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+CRITICAL - 2023-10-11 06:13:16 --> Call to undefined method App\Models\IuranModel::getListBulan
+#0 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\app\Controllers\Laporan.php(33): CodeIgniter\Model->__call('getListBulan', Array)
+#1 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(832): App\Controllers\Laporan->index()
+#2 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+CRITICAL - 2023-10-11 06:13:17 --> Call to undefined method App\Models\IuranModel::getListBulan
+#0 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\app\Controllers\Laporan.php(33): CodeIgniter\Model->__call('getListBulan', Array)
+#1 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(832): App\Controllers\Laporan->index()
+#2 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+CRITICAL - 2023-10-11 06:13:18 --> Call to undefined method App\Models\IuranModel::getListBulan
+#0 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\app\Controllers\Laporan.php(33): CodeIgniter\Model->__call('getListBulan', Array)
+#1 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(832): App\Controllers\Laporan->index()
+#2 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+CRITICAL - 2023-10-11 06:13:19 --> Call to undefined method App\Models\IuranModel::getListBulan
+#0 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\app\Controllers\Laporan.php(33): CodeIgniter\Model->__call('getListBulan', Array)
+#1 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(832): App\Controllers\Laporan->index()
+#2 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+CRITICAL - 2023-10-11 06:13:21 --> Call to undefined method App\Models\IuranModel::getListBulan
+#0 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\app\Controllers\Laporan.php(33): CodeIgniter\Model->__call('getListBulan', Array)
+#1 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(832): App\Controllers\Laporan->index()
+#2 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+CRITICAL - 2023-10-11 06:13:21 --> Call to undefined method App\Models\IuranModel::getListBulan
+#0 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\app\Controllers\Laporan.php(33): CodeIgniter\Model->__call('getListBulan', Array)
+#1 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(832): App\Controllers\Laporan->index()
+#2 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+CRITICAL - 2023-10-11 06:13:22 --> Call to undefined method App\Models\IuranModel::getListBulan
+#0 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\app\Controllers\Laporan.php(33): CodeIgniter\Model->__call('getListBulan', Array)
+#1 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(832): App\Controllers\Laporan->index()
+#2 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+CRITICAL - 2023-10-11 06:13:23 --> Call to undefined method App\Models\IuranModel::getListBulan
+#0 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\app\Controllers\Laporan.php(33): CodeIgniter\Model->__call('getListBulan', Array)
+#1 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(832): App\Controllers\Laporan->index()
+#2 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+CRITICAL - 2023-10-11 06:13:26 --> Call to undefined method App\Models\IuranModel::getListBulan
+#0 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\app\Controllers\Laporan.php(33): CodeIgniter\Model->__call('getListBulan', Array)
+#1 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(832): App\Controllers\Laporan->index()
+#2 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+CRITICAL - 2023-10-11 06:14:01 --> Call to undefined method App\Models\IuranModel::getListBulan
+#0 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\app\Controllers\Laporan.php(32): CodeIgniter\Model->__call('getListBulan', Array)
+#1 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(832): App\Controllers\Laporan->index()
+#2 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+CRITICAL - 2023-10-11 06:14:02 --> Call to undefined method App\Models\IuranModel::getListBulan
+#0 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\app\Controllers\Laporan.php(32): CodeIgniter\Model->__call('getListBulan', Array)
+#1 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(832): App\Controllers\Laporan->index()
+#2 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+CRITICAL - 2023-10-11 06:14:45 --> Undefined variable $getListBulan
+#0 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\app\Views\Laporan\index.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\Admini...', 20)
+#1 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\View\View.php(210): include('C:\\Users\\Admini...')
+#2 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\Common.php(1089): CodeIgniter\View\View->render('Laporan/index', Array, true)
+#4 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\app\Controllers\Laporan.php(33): view('Laporan/index', Array)
+#5 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(832): App\Controllers\Laporan->index()
+#6 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#10 {main}
+CRITICAL - 2023-10-11 06:15:37 --> Undefined variable $getIuran
+#0 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\app\Views\Laporan\index.php(186): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\Admini...', 186)
+#1 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\View\View.php(210): include('C:\\Users\\Admini...')
+#2 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\Common.php(1089): CodeIgniter\View\View->render('Laporan/index', Array, true)
+#4 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\app\Controllers\Laporan.php(31): view('Laporan/index', Array)
+#5 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(832): App\Controllers\Laporan->index()
+#6 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#10 {main}
+CRITICAL - 2023-10-11 06:15:39 --> Undefined variable $getIuran
+#0 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\app\Views\Laporan\index.php(186): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\Admini...', 186)
+#1 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\View\View.php(210): include('C:\\Users\\Admini...')
+#2 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\Common.php(1089): CodeIgniter\View\View->render('Laporan/index', Array, true)
+#4 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\app\Controllers\Laporan.php(31): view('Laporan/index', Array)
+#5 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(832): App\Controllers\Laporan->index()
+#6 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#10 {main}
+CRITICAL - 2023-10-11 06:15:40 --> Undefined variable $getIuran
+#0 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\app\Views\Laporan\index.php(186): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\Admini...', 186)
+#1 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\View\View.php(210): include('C:\\Users\\Admini...')
+#2 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\Common.php(1089): CodeIgniter\View\View->render('Laporan/index', Array, true)
+#4 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\app\Controllers\Laporan.php(31): view('Laporan/index', Array)
+#5 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(832): App\Controllers\Laporan->index()
+#6 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#10 {main}
+CRITICAL - 2023-10-11 06:17:05 --> Undefined variable $model
+#0 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\app\Controllers\Laporan.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\Admini...', 35)
+#1 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(832): App\Controllers\Laporan->index()
+#2 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#6 {main}
+CRITICAL - 2023-10-11 06:27:36 --> View themes, no current section.
+#0 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\app\Views\Laporan\android.php(270): CodeIgniter\View\View->endSection()
+#1 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\View\View.php(210): include('C:\\Users\\Admini...')
+#2 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\Common.php(1089): CodeIgniter\View\View->render('Laporan/android', Array, true)
+#4 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\app\Controllers\Laporan.php(56): view('Laporan/android', Array)
+#5 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(832): App\Controllers\Laporan->android()
+#6 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#10 {main}
+CRITICAL - 2023-10-11 06:29:30 --> Invalid file: layout/template/android.php
+#0 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/template...')
+#1 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\View\View.php(226): CodeIgniter\View\View->render('layout/template...', Array, true)
+#2 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\Common.php(1089): CodeIgniter\View\View->render('Laporan/android', Array, true)
+#3 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\app\Controllers\Laporan.php(56): view('Laporan/android', Array)
+#4 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(832): App\Controllers\Laporan->android()
+#5 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#6 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#9 {main}
+CRITICAL - 2023-10-11 06:29:52 --> Invalid file: layout/android/.php
+#0 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/android/...')
+#1 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\View\View.php(226): CodeIgniter\View\View->render('layout/android/', Array, true)
+#2 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\Common.php(1089): CodeIgniter\View\View->render('Laporan/android', Array, true)
+#3 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\app\Controllers\Laporan.php(56): view('Laporan/android', Array)
+#4 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(832): App\Controllers\Laporan->android()
+#5 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#6 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#9 {main}
+CRITICAL - 2023-10-11 06:29:53 --> Invalid file: layout/android/.php
+#0 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/android/...')
+#1 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\View\View.php(226): CodeIgniter\View\View->render('layout/android/', Array, true)
+#2 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\Common.php(1089): CodeIgniter\View\View->render('Laporan/android', Array, true)
+#3 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\app\Controllers\Laporan.php(56): view('Laporan/android', Array)
+#4 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(832): App\Controllers\Laporan->android()
+#5 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#6 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#9 {main}
+CRITICAL - 2023-10-11 06:30:34 --> Invalid file: layout/android/template/.php
+#0 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/android/...')
+#1 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\View\View.php(226): CodeIgniter\View\View->render('layout/android/...', Array, true)
+#2 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\Common.php(1089): CodeIgniter\View\View->render('Laporan/android', Array, true)
+#3 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\app\Controllers\Laporan.php(56): view('Laporan/android', Array)
+#4 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(832): App\Controllers\Laporan->android()
+#5 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#6 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#9 {main}
+CRITICAL - 2023-10-11 06:30:36 --> Invalid file: layout/android/template/.php
+#0 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/android/...')
+#1 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\View\View.php(226): CodeIgniter\View\View->render('layout/android/...', Array, true)
+#2 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\Common.php(1089): CodeIgniter\View\View->render('Laporan/android', Array, true)
+#3 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\app\Controllers\Laporan.php(56): view('Laporan/android', Array)
+#4 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(832): App\Controllers\Laporan->android()
+#5 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#6 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Administrator\Documents\GitHub\Iuran-Warga-TDI\aplikasikas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#9 {main}

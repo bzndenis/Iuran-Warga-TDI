@@ -1,5 +1,5 @@
 <!-- Berikan dari template.php -->
-<?= $this->extend('layout/template'); ?>
+<!-- <?= $this->extend('layout/android/template'); ?> -->
 
 <!-- Jadikan bagian konten -->
 <?= $this->section('content'); ?>
@@ -268,4 +268,6 @@
 
     </div>
 </div>
+
+<br><br>
 <?= $this->endSection(); ?>

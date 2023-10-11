@@ -6,7 +6,7 @@ use CodeIgniter\Controller;
 use App\Models\LaporanModel;
 use App\Models\IuranModel;
 
-class Laporan extends BaseController
+class Android extends BaseController
 {
     public function __construct()
     {
@@ -31,29 +31,7 @@ class Laporan extends BaseController
             
         ];
 
-        echo view('Laporan/index', $data + $dataIuran); // Menggabungkan kedua array data
-    }
-
-    public function android()
-    {
-        $modelLaporan = new LaporanModel;
-        $modelIuran = new IuranModel;
-
-        $data['title'] = 'Laporan Iuran';
-        $data['getLaporanTahun'] = $modelLaporan->getLaporanTahun();
-        $data['getLaporanBulan'] = $modelLaporan->getLaporanBulan();
-        $data['getListBulan'] = $modelLaporan->getListBulan();
-        $data['getListTahun'] = $modelLaporan->getListTahun();
-
-
-        $currentPage = $this->request->getVar('page_iuran') ? $this->request->getVar('page_iuran') : 1;
-        $dataIuran = [
-            'getIuran' => $this->IuranModel->getIuran(),
-            'currentPage' => $currentPage
-            
-        ];
-
-        echo view('Laporan/android', $data + $dataIuran); // Menggabungkan kedua array data
+        echo view('Android_view/index', $data + $dataIuran); // Menggabungkan kedua array data
     }
 
 

@@ -50,21 +50,32 @@ class Iuran extends BaseController
     public function store()
     {
         $model = new IuranModel;
-        $data = array(
+
+        // Ambil data dari form
+        $data = [
             'keterangan' => $this->request->getPost('keterangan'),
             'tanggal' => $this->request->getPost('tanggal'),
             'bulan' => $this->request->getPost('bulan'),
             'tahun' => $this->request->getPost('tahun'),
             'jumlah' => $this->request->getPost('jumlah'),
             'warga_id' => $this->request->getPost('warga_id')
-        );
+        ];
+
+        // Validasi apakah warga sudah membayar pada bulan dan tahun yang sama
+        if ($model->isAlreadyPaid($data['warga_id'], $data['bulan'], $data['tahun'])) {
+            // Jika sudah membayar, set pesan error dan kembali ke halaman create
+            session()->setFlashdata('warning', 'Warga sudah membayar pada bulan dan tahun yang sama.');
+            return redirect()->to('Iuran/create');
+        }
+
+        // Tambahkan data iuran jika validasi berhasil
         $model->tambah_iuran($data);
 
-        if ($model) {
-            session()->setFlashdata('success', 'Tambah Data Iuran Kas Berhasil');
-            return redirect()->to('Iuran');
-        }
+        // Set pesan sukses dan kembali ke halaman Iuran
+        session()->setFlashdata('success', 'Tambah Data Iuran Kas Berhasil');
+        return redirect()->to('Iuran');
     }
+
 
     public function edit($id)
     {
