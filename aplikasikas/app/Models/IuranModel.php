@@ -11,19 +11,21 @@ class IuranModel extends Model
 
     public function getIuran($id = false)
     {
+        $query = $this->table('iuran')
+            ->select('iuran.*,             
+            warga.nama as nama_warga, 
+            warga.nik as nik_warga, 
+            warga.alamat as alamat_warga, 
+            warga.no_rumah as no_rumah_warga, 
+            iuran.keterangan as keterangan,
+            iuran.tanggal as tanggal
+            ')
+            ->join('warga', 'warga.id = iuran.warga_id');
+
         if ($id === false) {
-            return $this->table('iuran')
-                ->select('iuran.*, warga.nama as nama_warga, warga.nik as nik_warga, warga.alamat as alamat_warga, warga.no_rumah as no_rumah_warga, iuran.keterangan as keterangan')
-                ->join('warga', 'warga.id = iuran.warga_id')
-                ->get()
-                ->getResultArray();
+            return $query->get()->getResultArray();
         } else {
-            return $this->table('iuran')
-                ->select('iuran.*, warga.nama as nama_warga, warga.nik as nik_warga, warga.alamat as alamat_warga, warga.no_rumah as no_rumah_warga, iuran.keterangan as keterangan')
-                ->join('warga', 'warga.id = iuran.warga_id')
-                ->where('iuran.id', $id)
-                ->get()
-                ->getRowArray();
+            return $query->where('iuran.id', $id)->get()->getRowArray();
         }
     }
 

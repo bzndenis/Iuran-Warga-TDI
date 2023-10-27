@@ -166,6 +166,7 @@
                                         <th scope="col">No Rumah</th>
                                         <th scope="col">Bulan</th>
                                         <th scope="col">Tahun</th>
+                                        <th scope="col">Tanggal</th>
                                         <th scope="col">Keterangan</th>
                                         <th scope="col">Jumlah</th>
                                     </tr>
@@ -226,10 +227,14 @@
                                                     <td>Data tidak tersedia</td>
                                                 <?php endif; ?>
                                                 <td>
-                                                    <?= angkaKeBulan($row['bulan']); ?> <!-- Menggunakan fungsi pemetaan -->
+                                                    <?= angkaKeBulan($row['bulan']); ?>
+                                                    <!-- Menampilkan Angka Bulan ke Bulan -->
                                                 </td>
                                                 <td>
                                                     <?= $row['tahun']; ?>
+                                                </td>
+                                                <td>
+                                                    <?= $row['tanggal']; ?>
                                                 </td>
                                                 <?php if (!empty($row['keterangan'])): ?>
                                                     <td>
