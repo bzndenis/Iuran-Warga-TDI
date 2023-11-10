@@ -33,45 +33,14 @@
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
 
-    <script>
+        <script>
         $(document).ready(function () {
-            $('#dataTable').DataTable(); // Gantilah 'dataTable' dengan ID tabel Anda
-            new DataTable('#dataTable', {
-                initComplete: function () {
-                    this.api()
-                        .columns()
-                        .every(function () {
-                            let column = this;
-
-                            // Create select element
-                            let select = document.createElement('select');
-                            select.add(new Option(''));
-                            column.footer().replaceChildren(select);
-
-                            // Apply listener for user change in value
-                            select.addEventListener('change', function () {
-                                var val = DataTable.util.escapeRegex(select.value);
-
-                                column
-                                    .search(val ? '^' + val + '$' : '', true, false)
-                                    .draw();
-                            });
-
-                            // Add list of options
-                            column
-                                .data()
-                                .unique()
-                                .sort()
-                                .each(function (d, j) {
-                                    select.add(new Option(d));
-                                });
-                        });
-                }
+            $('#dataTable').DataTable({
+                "responsive": true,
+                "scrollX": true
             });
+            new DataTable('table.display')
         });
-
-
-
     </script>
 </body>
 
